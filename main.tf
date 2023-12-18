@@ -3,7 +3,7 @@ module "gcs_buckets" {
   version = "~> 5.0"
 
   project_id = var.project_id
-  names = ["first", "second"]
+  names = ["first", "second", "third"]
   prefix = "demo-app"
   
   set_viewer_roles = true
